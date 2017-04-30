@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>How much does Trump Cost Taxpayers?</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+
+
+</head>
+<body>
+	<div id="logo">
+		<a href="https://www.democraticcoalition.org/" target="_blank"><img src="img/Logo.png"></a>
+	</div>
+	<img class="backgroundimg" src="img/trump-tower.jpg">
+	 <div class="background-color"></div>
+	 <div class="headerbox">
+		<h1 class="header">How much is Trump Tower costing taxpayers? <span onmouseover="learn('lmTrump')" class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></h1>
+		<div class="learn-more hidden" id="lmTrump" onmouseleave="unlearn('lmTrump')">
+	 		Security costs for Melania Trump living in Trump Tower instead of the White House<a href="http://www.independent.co.uk/news/world/americas/us-elections/donald-trump-costs-more-protect-us-leader-president-history-a7456046.html" target="_blank"> total $400,000 a day</a> 
+	 	</div>
+	 </div>
+
+	<div class="well bigbtn">
+	  	<h2 id="Melania-clock"></h2>
+	</div>
+
+	<div id="alt_use">
+		<h1>With that money we could...</h1>
+	</div>
+
+	<div id="panel-rows">
+
+		<!-- VA Benefits -->
+		<div id="veterans" class="panel panel-default">
+		  <div class="panel-heading">
+		    <h3 class="panel-title">Provide VA healthcare benefits for</h3>
+		  </div>
+		  <div class="panel-body">
+		    <p id="vets"></p>
+	  			<div  id="lmVets" onmouseleave="unlearn('lmVets')" class="learn-more hidden">
+	  				One year of VA healthcare costs <a href="http://www.npr.org/2015/01/13/376134776/va-data-show-disparities-in-veteran-benefits-spending" target="_blank">about $10,000.</a>
+	  			</div>
+
+		  	
+		  </div>
+
+		  <div class="panel-footer">
+	
+			<h2 class="panel-title">Veterans<span class="glyphicon glyphicon-question-sign" onmouseover="learn('lmVets')"  aria-hidden="true"></span></h2>
+		  </div>
+		</div>
+
+		<!-- Meals on wheels -->
+		<div id="seniors" class="panel panel-default">
+		  <div class="panel-heading">
+		    <h3 class="panel-title">Deliver Meals on <br>Wheels to</h3>
+		  </div>
+		  <div class="panel-body">
+		    <p id="mow"> </p>
+		    <div onmouseleave="unlearn('lmMow')" id="lmMow" class="learn-more hidden">
+		    	Meals on wheels for a senior <a href="http://www.marketwatch.com/story/this-is-how-much-it-costs-meals-on-wheels-to-feed-one-elderly-person-for-a-year-2017-03-16" target="_blank">costs $2,765 for a year.</a>
+	  		</div>
+		  </div>
+		  <div class="panel-footer">
+			<h2 class="panel-title">Low Income Seniors<span class="glyphicon glyphicon-question-sign" onmouseover="learn('lmMow')" aria-hidden="true"></span></h2>
+		  </div>
+		</div>
+
+		<!-- Pell Grants -->
+		<div id="students" class="panel panel-default">
+		  <div class="panel-heading">
+		    <h3 class="panel-title">Award Annual <br>Pell Grants for</h3>
+		  </div>
+		  <div class="panel-body">
+		    <p id="pell-grants"><p>
+		    <div onmouseleave="unlearn('lmPell')" id="lmPell" class="learn-more hidden">
+		    	Pell Grants award students <a href="https://studentaid.ed.gov/sa/sites/default/files/aid-glance-2017-18.pdf" target="_blank">a maximum of $5,920.</a>
+	  		</div>
+		  </div>
+		  <div class="panel-footer">
+			<h2 class="panel-title">Students<span class="glyphicon glyphicon-question-sign" onmouseover="learn('lmPell')"  aria-hidden="true"></span></h2>
+		  </div>
+		</div>
+
+
+		<div id="headstart" class="panel panel-default">
+		  <div class="panel-heading">
+		    <h3 class="panel-title">Give Head Start education to</h3>
+		  </div>
+		  <div class="panel-body">
+		    <p id="kids"></p>
+		    <div onmouseleave="unlearn('lmHead')" id="lmHead" class="learn-more hidden">
+		    	Head Start for one year <a href="https://www.forbes.com/sites/realspin/2012/03/05/parents-deserve-to-know-the-facts-about-head-start/#98f0c8974c36" target="_blank">costs $7,600 per child.</a>
+	  		</div>
+		  </div>
+		  <div class="panel-footer">
+			<h2 class="panel-title">Children<span class="glyphicon glyphicon-question-sign" onmouseover="learn('lmHead')" aria-hidden="true"></span></h2>
+		  </div>
+		</div>
+	</div>
+
+	<form id="sign_up" class="" action="" method="POST" target="no-target">
+		<div id="callToAction">
+			<p>Want to learn more or get involved?<br>
+			Join the Democratic Coalition Against Trump!<p>
+		</div>
+		<div class="input-group">
+		  <input id="input-name" type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+		</div>
+		<div class="input-group">
+		  <span class="input-group-addon" id="basic-addon1">@</span>
+		  <input id="input-email" type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
+
+		</div>
+
+		<div id="join">
+			<button id="form-submit" type="submit" class="btn btn-danger" onclick="clicked()">
+				<h1>Join!</h1>
+			</button>
+		</div>
+
+	</form>
+
+	<div id="joined" class="hidden alert alert-success" role="alert">
+		<p><b>Success!</b> Thanks for supporting the Democratic Coalition Against Trump. Visit our <a href="https://www.democraticcoalition.org/" target="_blank">website</a> to learn more or <a href="https://secure.actblue.com/contribute/page/thedemocraticcoalition" target="_blank">donate</a></p>
+	</div>
+
+
+		<iframe src="" class="hidden" id="no-target" name="no-target"></iframe>
+
+	<footer>
+
+		<a href="https://www.facebook.com/TheDemocraticCoalition/" target="_blank"><img src="
+		img/facebook.png"></a>
+
+		<a href="https://twitter.com/TheDemCoalition" target="_blank"><img src="img/twitter.png"></a>
+
+		<a href="https://www.linkedin.com/company/10788331?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_10788331%2Cidx%3A0" target="_blank"><img src="img/linkedin.png"></a>
+
+		<p>Paid for by The Democratic Coalition and not authorized by any candidate or candidate's committee</p>
+
+
+	</footer>
+
+	  <script
+	  src="https://code.jquery.com/jquery-2.2.4.js"
+	  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+	  crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+</html>

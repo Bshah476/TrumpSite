@@ -1,0 +1,302 @@
+.backgroundimg{
+	opacity: 0.7;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: -100;
+}
+#logo{
+	height: 100px;
+	background: rgba(255,255,255,.3);
+	margin-top: 20px;
+}
+#logo img{
+	position: relative;
+	left: calc(50vw - 150px);
+	height: 100px;
+	width: 300px;
+}
+.headerbox{
+	width: 100vw;
+	height: 40px;
+}
+.header{
+	position: relative;
+	font-weight: bolder;
+	margin: 0px;
+	margin-top: 5vh;
+	width: 60vw;
+	left: 20vw;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 25pt;
+	text-indent: -20px;
+	color: white;
+	height: 5vw;
+}
+.header span{
+	font-size: 12px;
+	position: relative;
+	left: .5em;
+	top: -1.2em;
+}
+.bigbtn{
+	width: 85vw;
+	height: 10vw;
+	margin-left:7.5vw;
+	margin-top: 5vh;
+	background-color: #5d769e;
+}
+.bigbtn h2{
+	position: relative;
+	bottom: 4vh;
+	text-align: center;
+	font-size: 7.5vw;
+	letter-spacing: 20px;
+	vertical-align: middle;
+}
+@media only screen and (max-width: 865px){
+	.bigbtn h2{
+		bottom: 4.5vh;
+		font-size: 6.5vw;
+		letter-spacing: 16px;
+	}
+	.header{
+		font-size: 20pt;
+	}
+	#alt_use h1{
+		font-size: 20pt;
+	}
+}
+
+#alt_use{
+	top: 30vh;
+	width: 100vw;
+	clear: both;
+	padding: 2vh;
+}
+#alt_use h1{
+	white-space: nowrap;
+	margin: 0px;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 25pt;
+	color: white;
+}
+#panel-rows{
+	font-family: helvetica;
+	width: 95vw;
+}
+.panel-title{
+	text-align: center;
+}
+.panel{
+	background: transparent;
+	float: left;
+	margin-left: 5vw;
+	margin-top: 2vw;
+	height: 225px;
+	width: 225px;
+}
+.panel-body{
+	background-color: rgba(255,255,255,.3);
+	margin: 0px;
+	width: 225px;
+	height: 125px;
+}
+.panel span{
+	font-size: 8px;
+	position: relative;
+	top:-1em;
+}
+.panel-footer{
+	max-height: 45px;
+}
+#veterans h2{
+	font-size: 22px;
+
+}
+#vets{
+	text-align: center;
+	font-size: 50px;
+	padding-top: 15px;
+}
+
+#seniors h2{
+	font-size: 20px;
+
+}
+#mow{
+	text-align: center;
+	font-size: 50px;
+	padding-top: 18px;
+}
+#students h2{
+	font-size: 22px;
+
+}
+#pell-grants{
+	padding-top: 15px;
+	text-align: center;
+	font-size: 50px;
+}
+
+#headstart h2{
+	font-size: 22px;
+
+}
+#kids{
+	padding-top: 15px;
+	text-align: center;
+	font-size: 50px;
+}
+#sign_up{
+	font-family: helvetica;
+	clear: both;
+	margin-bottom: 10px;
+}
+#callToAction{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+#sign_up .input-group{
+	position: relative;
+	left: 27.5vw;
+	width: 45vw;
+	margin-bottom: 5px;
+}
+.alert{
+	clear: both;
+	position: relative;
+	width: 45vw;
+	left: 27.5vw;
+}
+.alert p{
+
+	position: relative;
+	left: 5vw;
+	width: 35vw;
+	text-align: center;
+
+}
+button{
+ 	position: relative;
+	left: 27.5vw;
+	height: 50px;
+	width: 150px;
+}
+button h1{
+	position: relative;
+	font-size: 25px;
+	bottom: 12.5px;
+}
+.learn-more{
+	z-index: 100;
+	position: relative;
+	height: 50px;
+	width: 120px;
+	border: 1px solid black;
+	bottom: 14px;
+	left: 80px;
+	background-color: white;
+	color: black;
+	font-size: 11px;
+}
+.hidden{
+	display: none;
+}
+.headerbox .learn-more{
+	z-index: 100;
+	position: relative;
+	height: 100px;
+	width: 200px;
+	border: 1px solid black;
+	left: 75vw;
+	bottom: 20vh;
+	background-color: white;
+	color: black;
+	font-size: 11px;
+}
+@media only screen and (max-width: 1208px){
+	.header .glyphicon{
+		display: none;
+	}
+}
+iframe{
+	display: none;
+	height: 0px;
+	width: 0px;
+}
+footer{
+	clear: both;
+	min-height: 150px;
+	background-color: #003e7d;
+}
+
+footer a{
+	position: relative;
+	top: 10px;
+	left: calc(50vw - 100px);
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 30px;
+}
+footer img{
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 30px;
+}
+footer p{
+	font-size: 18px;
+	position: relative;
+	left: 25vw;
+	bottom: 20px;
+	margin-top: 40px;
+	text-align: center;
+	width: 50vw;
+	color: black;
+	background-color: white;
+}
+
+
+@media only screen and (max-width: 525px){
+	.bigbtn h2{
+		width: 90vw
+		bottom: 5vh;
+		font-size: 5.5vw;
+		letter-spacing: 12px;
+	}
+	.header{
+		font-weight: bold;
+		font-size: 15pt;
+	}
+	#alt_use h1{
+		font-size: 15pt;
+	}
+}
+
+@media only screen and (max-width: 380px){
+	.bigbtn h2{
+		width: 100vw
+		bottom: 5vh;
+		font-size: 3.5vw;
+		letter-spacing: 8px;
+	}
+	.header{
+		font-weight: normal;
+		font-size: 15pt;
+	}
+	#alt_use h1{
+		font-size: 12pt;
+	}
+}
+
