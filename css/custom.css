@@ -20,14 +20,14 @@
 }
 .headerbox{
 	width: 100vw;
-	height: 40px;
+	height: 80px;
 }
 .header{
 	position: relative;
 	font-weight: bolder;
 	margin: 0px;
-	margin-top: 5vh;
 	width: 60vw;
+	top: 12vh;
 	left: 20vw;
 	text-align: center;
 	font-family: helvetica;
@@ -46,9 +46,17 @@
 	width: 85vw;
 	height: 10vw;
 	margin-left:7.5vw;
-	margin-top: 5vh;
+	margin-top: 10vh;
 	background-color: #5d769e;
 }
+#lmTrump{
+	text-align: center;
+	color: white;
+}
+#lmTrump a{
+	color: red;
+}
+
 .bigbtn h2{
 	position: relative;
 	bottom: 4vh;
@@ -75,7 +83,7 @@
 	top: 30vh;
 	width: 100vw;
 	clear: both;
-	padding: 2vh;
+	padding: 3vh;
 }
 #alt_use h1{
 	white-space: nowrap;
@@ -205,6 +213,11 @@ button h1{
 	color: black;
 	font-size: 11px;
 }
+
+.learn-more a{
+	color: red;
+}
+
 .hidden{
 	display: none;
 }
